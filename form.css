@@ -1,0 +1,148 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body
+{
+ width: 100vw;
+ height: 100vh;
+ background-color: aquamarine;
+ display: grid;
+ place-items: center;
+}
+
+.container
+{
+    width: 500px;
+    padding: 20px;
+    background-color: black;
+    border-radius: 5px;
+    border: solid;
+    border-color: blueviolet;
+
+}
+
+/* form  start */
+
+.form h5
+{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1px;
+    text-transform: uppercase;
+    color: gold;
+}
+
+.form
+{
+    color: #ffff;
+    padding: 10px;
+    
+}
+
+.form p
+{
+    /* visibility: hidden; */
+    
+
+}
+
+/* form  start end */
+
+/* form group start */
+
+.form-group
+{
+    padding: 2px 0 2px 0;
+}
+
+.form-group label
+{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input
+{
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid;
+ 
+}
+
+/* .form-group.error p
+{
+    color: red;
+
+}
+.form-group.error input
+{
+    border-color: red;
+}
+.form-group.success input
+{
+    border-color: green;
+} */
+
+/* form group end */
+
+/* form gender start */
+
+.form-gender input
+{
+    margin-left: 10px;
+}
+
+.form-gender 
+{
+    padding: 5px 0 5px 0;
+   
+}
+/* form gender end */
+   
+/* form degree start*/
+
+.form-degree
+{
+    padding: 5px 0 5px 0;
+}
+.form-degree label
+{
+    margin-right: 10px;
+   
+}
+
+/* form degree end*/
+
+/* form language start */
+
+.form-language input
+{
+    margin-left: 15px;
+    
+}
+/* form language ends */
+
+
+.form button
+{
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: blue;
+    border: solid 1px;
+    color: #ffff;
+    
+}
+
+.form-group ul
+{
+    list-style-type: none;
+}
+
